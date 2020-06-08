@@ -2,17 +2,17 @@
 
 title: "Jay Himanshu Jha"
 description: "This is my personal blog."
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
 url: http://jayhjha.dev
+profilepic: '/images/profile.jpg'
+bkimage: '/images/cover.jpg'
 
 author:
   name: 'Jay Himanshu Jha'
   email: jayhjha@gmail.com
   twitter_username: jayhimanshujha
-  github_username:  hijha
-  linkedin_username:  jayhimanshujha
+  github_username: hijha
+  linkedin_username: jayhimanshujha
 
 defaults:
   -
@@ -24,8 +24,6 @@ defaults:
 
 # Build settings
 destination: _site
-paginate: 10
-permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
 
